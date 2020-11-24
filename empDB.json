@@ -1,19 +1,24 @@
 {
-  "posts": [
+  "employees": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Goku",
+      "salary": "10000"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Lisa",
+      "salary": "20000"
+    },
+    {
+      "id": 3,
+      "name": "Terisa",
+      "salary": "10000"
+    },
+    {
+      "name": "Tim",
+      "salary": "5000",
+      "id": 4
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

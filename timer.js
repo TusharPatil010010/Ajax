@@ -1,11 +1,11 @@
 function showTime() {
     const date = new Date();
-    return "Hrs: " + date.getHours + "Minutes: " + date.getMinutes +
-            "Seconds: " +  date.getSeconds;
+    return "Hrs: " + date.getHours() + "Minutes: " + date.getMinutes() +
+            "Seconds: " +  date.getSeconds();
 }
 
 function showSessionExpire() {
-    console.log("Activity-B your session is expired " + showTime);
+    console.log("Activity-B your session is expired " + showTime());
 }
 
 console.log("Activity-A : Trigerring Activity-B at " + showTime());
